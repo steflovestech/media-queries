@@ -56,9 +56,9 @@ footer {
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
 
 @media (min-width: 768px) {
+  
   header {
     background-color: lightcoral;
   }
@@ -78,12 +78,17 @@ footer {
   footer {
     background-color: lightcoral;
   }
+
+  .col-3 {
+    width: 50%;
+  }
   
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+
   header {
     background-color: blue;
   }
@@ -102,6 +107,10 @@ footer {
 
   footer {
     background-color: blue;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
    
 }
